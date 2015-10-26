@@ -17,3 +17,9 @@ set incsearch   "Searches for strings incrementally
 set ruler   "Show row and column ruler information
 set undolevels=1000 "Number of undo levels
 
+"Tab settings, 4-space-sized tabs for all indentations
+set shiftwidth=4
+set tabstop=4
+set noexpandtab
+set softtabstop=0
+set smartindent
