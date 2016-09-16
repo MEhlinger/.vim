@@ -20,6 +20,7 @@ set undolevels=1000 "Number of undo levels
 "Tab settings, 4-space-sized tabs for all indentations
 set shiftwidth=4
 set tabstop=4
-set noexpandtab
+set expandtab
 set softtabstop=0
-set smartindent
+set autoindent 
+filetype plugin indent on
