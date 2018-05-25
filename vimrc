@@ -4,7 +4,6 @@ set nocompatible
 
 set number   "Show line numbers
 set showbreak=+++   "Wrap-broken line prefix
-set textwidth=79 "Line wrap (number of cols)
 set showmatch   "Highlight matching brace
 set visualbell  "Use visual bell (no beeping)
  
@@ -24,5 +23,8 @@ set expandtab
 set softtabstop=0
 set autoindent 
 filetype plugin indent on
+
+"Remember that this is not sufficient to use pathogen; must be installed: https://github.com/tpope/vim-pathogen
+execute pathogen#infect()
 
 syntax on
